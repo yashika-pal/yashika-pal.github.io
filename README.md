@@ -5,7 +5,6 @@ A personal portfolio website built with **React**
 
 ```sh
 git clone https://github.com/your-username/your-repo.git
-cd React.js Portfolio
 npm install
 ```
 
