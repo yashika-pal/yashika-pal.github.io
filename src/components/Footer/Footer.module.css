@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import "../../vars.css";
 
 .footer {
@@ -40,3 +41,47 @@
   font-size: 0.9rem;
   color: #bfc9d9;
 }
+=======
+@import "../../vars.css";
+
+.footer {
+  background: var(--color-bg);
+  color: #fff;
+  padding: 2rem 0;
+  margin-top: 5rem;
+  border-top: 2px solid #fff;
+  width: 100%;
+  max-width: none;
+}
+
+
+.footerContent {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.footerText {
+  text-align: center;
+}
+
+.footerText h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 0.3rem;
+}
+
+.footerText p {
+  font-size: 1rem;
+  color: #bfc9d9;
+}
+
+.copyright {
+  font-size: 0.9rem;
+  color: #bfc9d9;
+}
+>>>>>>> 88fd6b1a82040412f2325c24e6783706bbc537b6

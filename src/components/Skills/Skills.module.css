@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import "../../vars.css";
 
 .skillsSection {
@@ -102,3 +103,109 @@
     justify-content: center;
   }
 }
+=======
+@import "../../vars.css";
+
+.skillsSection {
+  width: 100%;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.title {
+  color: #fff;
+  font-size: 2.5rem; 
+  font-weight: 900;
+  letter-spacing: 1px;
+  margin-bottom: 1.5rem;
+}
+
+.subtitle {
+  color: #bfc9d9;
+  font-size: 0.95rem; 
+  margin-bottom: 2rem;
+}
+
+.skillsBox {
+  background: rgba(12, 12, 12, 0.6);
+  border: 2px solid #3ecfff;
+  border-radius: 18px;
+  padding: 1.5rem 2rem; 
+  max-width: 900px; 
+  margin: 0 auto;
+  box-shadow: 0 0 24px 0 #0a58ca33;
+  transition: box-shadow 0.2s;
+}
+
+.category {
+  margin-bottom: 1.5rem; 
+}
+
+.categoryTitle {
+  color: #fff;
+  font-size: 1.2rem; 
+  font-weight: 700;
+  margin: 1rem 0 0.8rem 0;
+  letter-spacing: 0.5px;
+  text-align: left;
+  position: relative;
+  padding-left: 0.8rem;
+}
+
+.categoryTitle:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 3px; 
+  background: #3ecfff;
+  border-radius: 2px;
+}
+
+.skillsGrid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem 1rem; 
+  justify-content: flex-start;
+}
+
+.skillItem {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem; 
+  background: #181824;
+  border-radius: 8px; 
+  padding: 0.4rem 0.8rem; 
+  color: #fff;
+  font-size: 2rem; 
+  font-weight: 500;
+  box-shadow: 0 2px 12px 0 #0a58ca18;
+  transition: background 0.2s;
+}
+
+.skillItem:hover {
+  background: #23234b;
+}
+
+.skillIcon {
+  font-size: 1.2rem; 
+  color: #3ecfff;
+}
+
+.skillLabel {
+  color: #fff;
+  font-size: 1rem; 
+  font-weight: 500;
+}
+
+@media (max-width: 900px) {
+  .skillsBox {
+    width: 90%;
+    padding: 1.2rem 1.5rem;
+  }
+  .skillsGrid {
+    justify-content: center;
+  }
+}
+>>>>>>> 88fd6b1a82040412f2325c24e6783706bbc537b6
