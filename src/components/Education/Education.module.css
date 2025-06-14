@@ -1,0 +1,116 @@
+@import "../../vars.css";
+
+.educationSection {
+  width: 100%;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.title {
+  color: #fff;
+  font-size: 2.5rem;
+  font-weight: 900;
+  letter-spacing: 1px;
+  margin-bottom: 1.2rem;
+}
+
+.outerBox {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.educationBox {
+  background: #10131a;
+  border: 2px solid #3ecfff;
+  border-radius: 18px;
+  padding: 2.2rem 2.5rem;
+  box-shadow: 0 0 24px 0 #0a58ca33;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.educationItem {
+  background: #151922;
+  border-radius: 10px;
+  padding: 1.4rem 1.7rem;
+  margin-bottom: 0;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  box-shadow: 0 2px 12px 0 #0a58ca18;
+  transition: background 0.2s;
+}
+
+.rowTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.degree {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 0.35rem;
+  text-align: left;
+}
+
+.institution {
+  font-size: 1rem;
+  color: #bfc9d9;
+  text-align: left;
+}
+
+.score {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #3ecfff;
+  background: rgba(62, 207, 255, 0.10);
+  border-radius: 16px;
+  padding: 0.3rem 1.1rem;
+  align-self: flex-start;
+  margin-left: 1.5rem;
+}
+
+.rowBottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #bfc9d9;
+  font-size: 0.98rem;
+  margin-top: 0.4rem;
+}
+
+.year {
+  text-align: left;
+}
+
+.period {
+  text-align: right;
+}
+
+@media (max-width: 900px) {
+  .outerBox {
+    max-width: 98vw;
+    padding: 0 4vw;
+  }
+  .educationBox {
+    padding: 1.2rem 0.5rem;
+  }
+  .educationItem {
+    padding: 1rem 0.5rem;
+  }
+  .rowTop, .rowBottom {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.2rem;
+  }
+  .score {
+    margin-left: 0;
+    margin-top: 0.4rem;
+  }
+}
