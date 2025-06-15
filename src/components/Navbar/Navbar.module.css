@@ -71,6 +71,18 @@
   background: #3ecfff;
   color: #181824;
 }
+.timeTitle {
+  font-size: 1.8rem;
+  font-weight: 800;
+  color: #3ecfff;
+  letter-spacing: 0.02em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 130px;
+}
+
+
 
 /* Hide menu items on small screens */
 @media screen and (max-width: 768px) {

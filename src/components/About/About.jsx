@@ -44,7 +44,7 @@ const About = () => {
         </div>
       </div>
       <div className={styles.heroImgWrapper}>
-        <img src="/images/pic.jpg" alt="Profile" className={styles.heroImg} />
+        <img src="/images/yashi.jpg" alt="Profile" className={styles.heroImg} />
       </div>
     </section>
   );
