@@ -1,8 +1,6 @@
-# yashika-pal.github.io
+# React.js Portfolio
 
 A personal portfolio website built with **React**
-
-# React.js Portfolio
 
 ## Live Website
 
@@ -15,10 +13,6 @@ A personal portfolio website built with **React**
    ```bash
    git clone https://github.com/yashika-pal/yashika-pal.github.io.git
    cd yashika-pal.github.io
-   ```
-
-   ```
-
    ```
 
 2. Install dependencies:
